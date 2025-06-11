@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { initAntiDebug } from '@/lib/antidebugger'
+// import { initAntiDebug } from '@/lib/antidebugger'
 import { NavBar } from '@/components/NavBar';
 import PageOne from '@/pages/PageOne'
 import PageTwo from '@/pages/PageTwo'
@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     // 生产环境下不允许打开devtools
     if (import.meta.env.PROD) {
-      initAntiDebug();
+      // initAntiDebug();
     }
   }, []);
 
