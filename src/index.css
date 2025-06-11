@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'sisyphus';
+  src: url('/src/assets/fonts/Sisyphus.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bowlby One';
+  src: url('/src/assets/fonts/BowlbyOne.ttf') format('truetype');
+}
+
+.font-bowlby-one {
+  font-family: "Bowlby One", sans-serif;
+}
+
+.font-sisyphus {
+  font-family: 'sisyphus'
+}
+
+#root {
+  overflow-x: hidden;
+}
